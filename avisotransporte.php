@@ -81,7 +81,7 @@ class AvisoTransporte extends Module
         $formHtml .= '<label>'.$this->l('Texto del email de aviso (Dentro del template ya se envía la tabla de productos y la información del usuario.)').'</label><br>';
         $formHtml .= '<textarea name="AVISO_NO_TRANSPORTE_EMAIL_TEXT" rows="5" style="width:500px">'.htmlentities(Configuration::get('AVISO_NO_TRANSPORTE_EMAIL_TEXT')).'</textarea><br><br>';
 
-        $formHtml .= '<label>'.$this->l('Texto en el checkout si no hay transporte').'</label><br>';
+        $formHtml .= '<label>'.$this->l('Texto en el checkout si no hay transporte. Elimina el contenido para que no se genere un aviso visible.').'</label><br>';
         $formHtml .= '<textarea name="AVISO_NO_TRANSPORTE_TEMPLATE_TEXT" rows="3" style="width:500px">'.htmlentities(Configuration::get('AVISO_NO_TRANSPORTE_TEMPLATE_TEXT')).'</textarea><br><br>';
 
         $formHtml .= '<button type="submit" name="submitAvisoTransporte" class="btn btn-primary">'.$this->l('Guardar configuración').'</button>';
