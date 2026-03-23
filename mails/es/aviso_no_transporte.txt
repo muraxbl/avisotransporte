@@ -1,0 +1,14 @@
+AVISO DE COMPRA SIN TRANSPORTISTA
+
+{email_text}
+
+Cliente: {email} (ID #{customer})
+Tienda: {shop}
+Número de carrito: {cart}
+País de entrega: {country}
+Código postal: {postcode}
+
+Productos en el carrito:
+{cart_products}
+
+Este mensaje ha sido generado automáticamente por el módulo avisotransporte.
